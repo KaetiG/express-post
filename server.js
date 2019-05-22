@@ -13,5 +13,5 @@ let quotes_data = [
 
 app.get('/quotes', (req, res)=>{
     console.log(quotes_data);
-    res.send([quotes_data]);
+    res.send(quotes_data);
 });
